@@ -8,11 +8,11 @@ from typing import Annotated, Any, Optional
 
 from typer import Argument, Option, Typer
 
-from prosperity3bt.data import has_day_data
-from prosperity3bt.file_reader import FileReader, FileSystemReader, PackageResourcesReader
-from prosperity3bt.models import BacktestResult, TradeMatchingMode
-from prosperity3bt.open import open_visualizer
-from prosperity3bt.runner import run_backtest
+from prosperity4bt.data import has_day_data
+from prosperity4bt.file_reader import FileReader, FileSystemReader, PackageResourcesReader
+from prosperity4bt.models import BacktestResult, TradeMatchingMode
+from prosperity4bt.open import open_visualizer
+from prosperity4bt.runner import run_backtest
 
 
 def parse_algorithm(algorithm: Path) -> Any:
